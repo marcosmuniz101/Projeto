@@ -8,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ListaDeDisciplinasComponent implements OnInit {
 
 
-  periodos = [ "Primeiro = ['Linguagem de Programação WEB', 'Redes de Computadores']", "Segundo = ['Estrutura I', 'LPOO']"]
+  
   disciplinas = [
+    {periodo: 1, nome: "Algoritimos I"},
+    {periodo: 2, nome: "Algoritimos II"},
+    {periodo: 3, nome: "LPOO"},
   ];
   constructor() { }
 
